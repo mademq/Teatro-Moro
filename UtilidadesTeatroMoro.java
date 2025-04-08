@@ -101,7 +101,7 @@ public class UtilidadesTeatroMoro {
 
                     int zonaElegida;
                     do {
-                        System.out.println("¿En qué zona quieres comprar tu entrada? (1-3).");
+                        System.out.println("\n¿En qué zona quieres comprar tu entrada? (1-3).");
                         while (!sc.hasNextInt()) {
                             System.out.println("Opción inválida. Por favor, inténtalo nuevamente");
                             sc.next();
@@ -145,7 +145,7 @@ public class UtilidadesTeatroMoro {
                    
                     int fila;
                     do {
-                        System.out.println("¿En qué fila (F) quieres sentarte? (1 a " + zonaSeleccionada.length + ")");
+                        System.out.println("\n¿En qué fila (F) quieres sentarte? (1 a " + zonaSeleccionada.length + ")");
                         while (!sc.hasNextInt()) {
                             System.out.println("El número de fila ingresado es inválido. Inténtalo nuevamente.");
                             sc.next();
@@ -159,7 +159,7 @@ public class UtilidadesTeatroMoro {
                     while (!asientoValido) {
                     int asiento;
                     do {
-                        System.out.println("¿Qué asiento quieres reservar? (1 a " + zonaSeleccionada[0].length + ")");
+                        System.out.println("\n¿Qué asiento quieres reservar? (1 a " + zonaSeleccionada[0].length + ")");
                         while (!sc.hasNextInt()) {
                             System.out.println("El número de asiento ingresado es inválido. Inténtalo nuevamente.");
                             sc.next();
